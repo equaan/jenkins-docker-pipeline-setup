@@ -31,7 +31,6 @@ This pipeline is the foundation for everything else.
 A multi-stage CI/CD pipeline that simulates a real 3-tier application:
 - **Backend CI** → Maven build (runs inside Docker on Ubuntu node)
 - **Frontend CI** → Node.js (runs inside Docker on Ubuntu node)
-- **Database CI** → DB validation (runs on CentOS node)
 
 This helped me understand:
 - agent none  
@@ -47,7 +46,7 @@ This helped me understand:
 
 - Jenkins (LTS)
 - Docker
-- AWS EC2 (Ubuntu + CentOS)
+- AWS EC2 (Ubuntu)
 - Maven
 - Node.js
 - GitHub SCM integration
